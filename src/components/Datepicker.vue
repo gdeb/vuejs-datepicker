@@ -13,6 +13,7 @@
       :placeholder="placeholder"
       :inputClass="inputClass"
       :typeable="typeable"
+      :format-typed-date="formatTypedDate"
       :clearButton="clearButton"
       :clearButtonIcon="clearButtonIcon"
       :calendarButton="calendarButton"
@@ -150,6 +151,7 @@ export default {
     required: Boolean,
     typeable: Boolean,
     useUtc: Boolean,
+    formatTypedDate: Function,
     minimumView: {
       type: String,
       default: 'day'
