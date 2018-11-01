@@ -1,3 +1,11 @@
+# FORK
+
+This repository is a fork of the original vuejs-datepicker package, with one additional commit, to support custom formats and the typeable
+option.
+
+If the feature is added to the original repository, I will unpublish this package.
+
+
 # Datepicker
 
 [![Travis Build](https://img.shields.io/travis/charliekassel/vuejs-datepicker.svg)](https://travis-ci.org/charliekassel/vuejs-datepicker)
